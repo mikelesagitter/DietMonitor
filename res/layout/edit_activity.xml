@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_marginTop="20dp">
+
+	
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_hideKB"
+		android:text="@string/hide_kb" />
+	
+	<LinearLayout
+	    android:id="@+id/showDate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_gravity="center_vertical|center_horizontal"
+	    android:gravity="center_vertical|center_horizontal" >
+	    
+	    <TextView 
+	        android:id="@+id/dateDisplay"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_vertical|center_horizontal"
+        	android:textSize="50sp"
+        	android:text="" 
+        	/>
+	    
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" 
+        android:id="@+id/input">
+
+	    <Button 
+	        android:id="@+id/pickDate"
+	        android:layout_width="125dp"
+	        android:layout_height="wrap_content"
+	        android:text="Date"/>
+	    
+		<EditText
+            android:id="@+id/editText_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+			android:inputType="numberDecimal">
+        </EditText>
+
+    </LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/input"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+		<Button
+	            android:id="@+id/button_edit"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0"
+	            android:text="@string/edit" />
+		
+		<Button
+	            android:id="@+id/button_delete"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0"
+	            android:text="@string/delete" />
+	</LinearLayout>
+
+	
+
+
+
+</LinearLayout>

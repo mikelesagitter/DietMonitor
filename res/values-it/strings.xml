@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Benvenuti su DietMonitor!</string>
+    <string name="app_name">DietMonitor</string>
+    <string name="edit">Salvare</string> 
+    <string name="delete">Eliminare</string>
+    <string name="statistics">Statistiche</string>
+    <string name="hide_kb">Nascondere la tastiera</string>
+    <string name="date">Data</string>
+    <string name="add">Aggiungi</string>
+    <string name="compute">Calcolare</string>
+    
+</resources>
